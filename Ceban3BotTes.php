@@ -27,7 +27,7 @@
 define('1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ', 'TokenBot'); 
 
 // versi official telegram bot
-define('API_URL', 'https://api.telegram.org/bot'.1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ.'/');
+define('API_URL', 'https://api.telegram.org/bot'1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ'/');
 
 define('myVERSI','0.03');
 
