@@ -126,7 +126,7 @@ function apiRequestJson($method, $parameters) {
 }
 
 // jebakan token, klo ga diisi akan mati
-if (strlen(1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ)<20) 
+if (strlen(BOT_TOKEN)<20) 
     die(PHP_EOL."-> -> Token BOT API nya mohon diisi dengan benar!\n");
 
 function getUpdates($last_id = null){
@@ -237,7 +237,9 @@ if (!$update) {
 }
 
 /*
+
 Sekian.
+
 */
     
 ?>
