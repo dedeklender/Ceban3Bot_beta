@@ -24,10 +24,10 @@
  */
 
 // masukkan bot token di sini
-define('1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ', 'TokenBot'); 
+define('BOT_TOKEN', '1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ'); 
 
 // versi official telegram bot
-define('API_URL', 'https://api.telegram.org/bot'1516072532:AAF9hsylO3bknwo_llauZhAVLhNCXvoiIHQ'/');
+define('API_URL', 'https://api.telegram.org/bot'.BOT_TOKEN.'/');
 
 define('myVERSI','0.03');
 
@@ -139,7 +139,7 @@ function getUpdates($last_id = null){
 }
 
 // matikan ini jika ingin bot berjalan
-die('baca dengan teliti yak!');
+
 
 // ----------- pantengin mulai ini
 function sendMessage($idpesan, $idchat, $pesan){
